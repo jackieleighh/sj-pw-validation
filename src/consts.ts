@@ -62,3 +62,17 @@ export const btnString = `<Tooltip
         <Button disabled={strength !== "Strong"}>Submit</Button>
       </span>
   </Tooltip>`;
+export const basicForm = `<form style={{width: '100%'}}>
+    <FormControl fullWidth>
+        <InputLabel htmlFor="email-input">Email address</InputLabel>
+        <Input fullWidth id="email-input" type="email" />
+    </FormControl>
+    <Box height="12px" />
+    <FormControl fullWidth>
+        <InputLabel htmlFor="password-input">Password</InputLabel>
+        <Input fullWidth id="password-input" type="password" />
+    </FormControl>
+    <Box display="flex" justifyContent="flex-end" padding="16px 0">
+        <Button>Submit</Button>
+    </Box>
+</form>`;
