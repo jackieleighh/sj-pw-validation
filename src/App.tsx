@@ -45,13 +45,13 @@ function App() {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          padding="10px 60px"
-          minHeight="100vh"
+          padding={{ xs: "10px 20px", sm: "10px 60px" }}
+          minHeight={{ xs: "auto", sm: "100vh" }}
           flexDirection="column"
         >
           <Box
             display="flex"
-            padding="20px 0"
+            padding={{ sm: "20px 0" }}
             flexDirection="column"
             width="100%"
           >
@@ -73,7 +73,7 @@ function App() {
           </Box>
           <Box
             display="flex"
-            padding="20px 0"
+            padding={{ sm: "20px 0" }}
             flexDirection="column"
             width="100%"
           >
