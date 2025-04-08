@@ -85,7 +85,7 @@ function App() {
           <h3>Enforcing password strength</h3>
           <p>Finally, we want to let the user know if their password is strong enough.  We'll make it colorful for extra readability.</p>
           <SyntaxHighlighter language="javascript" customStyle={{overflow:'visible'}}>{helperString}</SyntaxHighlighter>
-          <p>And disable our form submission until our password is strong enough!  Let's include a tooltip to let the user know why our form won't submit while we're at it.</p>
+          <p>And disable our form submission until our password is strong enough!  Let's include a tooltip to let the user know why our form won't submit while we're at it.  We'll disable the tooltip and enable our the button if our password is strong enough.</p>
           <SyntaxHighlighter language="javascript" customStyle={{overflow:'visible'}}>{btnString}</SyntaxHighlighter>
           <h3>Great work!</h3>
           <p>You just successfully completed a basic form validator to make sure your user is using a strong password.  Great job!</p>
