@@ -4,8 +4,6 @@ import './App.css';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { Box, Button, FormControl, FormHelperText, Grid, Input, InputLabel, Tooltip } from '@mui/material';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { basicForm, btnString, helperString, hooksString, inputString, pwFunctionString } from './consts';
 import { evaluatePasswordStrength } from './utils';
 import LessonPlan from './LessonPlan';
 
