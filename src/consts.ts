@@ -1,4 +1,5 @@
 export const hooksString = `const [password, setPassword] = useState(''); \nconst [strength, setStrength] = useState('');`;
+
 export const inputString = `<Input 
     id="password-input" 
     type="password" 
@@ -8,6 +9,7 @@ export const inputString = `<Input
       setStrength(evaluatePasswordStrength(event.target.value));
     }} 
     />`;
+
 export const pwFunctionString = `function evaluatePasswordStrength(password: string) {
     let score = 0;
   
@@ -38,6 +40,7 @@ export const pwFunctionString = `function evaluatePasswordStrength(password: str
       return "Weak";
     }
   }`;
+
 export const helperString = `<FormHelperText>
   Password strength: 
     <span style={{
@@ -49,6 +52,7 @@ export const helperString = `<FormHelperText>
     {strength}
     </span>
   </FormHelperText>`;
+
 export const btnString = `<Tooltip 
     title="Must use a strong password"
     content="content"
@@ -62,6 +66,7 @@ export const btnString = `<Tooltip
         <Button disabled={strength !== "Strong"}>Submit</Button>
       </span>
   </Tooltip>`;
+
 export const basicForm = `<form style={{width: '100%'}}>
     <FormControl fullWidth>
         <InputLabel htmlFor="email-input">Email address</InputLabel>
