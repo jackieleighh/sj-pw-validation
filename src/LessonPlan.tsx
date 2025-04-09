@@ -10,7 +10,7 @@ function LessonPlan() {
     <>
       <h2>Safe passwords</h2>
       <p>Here at Security Journey, we care about the privacy of our users.</p>
-      <p>In our first example on the left, we have an unsafe form.  There is no validation, and a user can create an email/password login of their choosing.  This puts our users at risk!</p>
+      <p>In our first example on the right, we have an unsafe form.  There is no validation, and a user can create an email/password login of their choosing.  This puts our users at risk!</p>
       <p>Today, we're going to learn how to ensure users are choosing safe passwords using basic form validation.  
         We will be using a simple validator built using React hooks and a custom validator function.  
         We will be displaying to the user whether their password is safe, and disabling account creation until they have a strong enough password.</p>
