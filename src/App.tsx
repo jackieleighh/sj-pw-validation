@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Grid container>
-      <Grid size={{ sm: 7 }} display={{ xs: 'none', sm: 'block' }}>
+      <Grid size={{ sm: 7 }} display={{ xs: 'none', sm: 'block' }} borderRight="2px solid rgb(245, 242, 240)">
         <Box
           display="flex"
           justifyContent="flex-start"
